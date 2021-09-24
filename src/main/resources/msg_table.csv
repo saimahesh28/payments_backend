@@ -1,0 +1,10 @@
+Message Code ,Instruction 
+CHQB,beneficiary customer must be paid by cheque only.
+CORT,Payment is made in settlement for a trade.
+HOLD,Beneficiary customer or claimant will call upon identification.
+INTC,Payment between two companies that belongs to the same group.
+PHOB,Please advise the intermediary institution by phone.
+PHOI,Please advise the intermediary by phone.
+PHON,Please advise the account with institution by phone.
+REPA,Payments has a related e-Payments reference.
+SDVA,Payment must be executed with same day value to the
