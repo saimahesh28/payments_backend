@@ -15,7 +15,7 @@ public class TransactionController {
 	@Autowired
 	TransactionService transactionService;
 	
-	@PostMapping
+	@PostMapping("sendmoney")
 	ResponseEntity<Object> processTransaction(@RequestBody TransactionRequest transactionRequest){
 		return transactionService.sendMoney(transactionRequest);
 	}

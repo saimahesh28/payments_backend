@@ -20,8 +20,8 @@ public class MessageController {
 
 	@Autowired
 	private MessageService messageService;
-	@GetMapping("customer/{acc}")
-	public ResponseEntity<Object> getCustomerDetails(@PathVariable("acc") String id ) {
+	@GetMapping("messagecodes")
+	public ResponseEntity<Object> getMessageCodes() {
 		List<Message> m=messageService.getAllMessages();
 		
 		return ResponseEntity.status(HttpStatus.OK).body(m);
